@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/Northstar retro bann.png" alt="Northstar Banner" width="100%" />
 </p>
+
 # Analytics Platform Migration Toolkit
 
 A practical, reusable toolkit for enterprise analytics platform separation and migration projects. Built from real-world experience migrating SAS, Spotfire, and Power BI Gateway environments across Dev, Sandbox, and Prod tiers — including OS upgrades and full IT domain separations.
