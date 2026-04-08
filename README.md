@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/northstar_banner.png" alt="Northstar Banner" width="100%" />
+  <img src="assets/Northstar retro bann.png" alt="Northstar Banner" width="100%" />
 </p>
 # Analytics Platform Migration Toolkit
 
