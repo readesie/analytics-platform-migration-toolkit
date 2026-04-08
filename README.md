@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/northstar_banner.png" alt="Northstar Banner" width="100%" />
+</p>
 # Analytics Platform Migration Toolkit
 
 A practical, reusable toolkit for enterprise analytics platform separation and migration projects. Built from real-world experience migrating SAS, Spotfire, and Power BI Gateway environments across Dev, Sandbox, and Prod tiers — including OS upgrades and full IT domain separations.
@@ -160,3 +163,19 @@ Senior Data Engineering & Analytics Platform Specialist
 25+ years in production data pipelines, SAS environments, and hybrid cloud infrastructure
 
 [LinkedIn](https://linkedin.com/in/reades/) · [GitHub](https://github.com/readesie)
+
+---
+
+## A Note on the Source Material
+
+This toolkit was built from a real engagement. Client, personnel, and project names have been anonymized throughout. Any resemblance to actual organizations or individuals is purely coincidental — or highly circumstantial. 🏒
+
+---
+
+## ⭐ About the Name
+
+*Project name inspired by the legendary Minnesota North Stars — because every migration deserves a true north.*
+
+[![Minnesota North Stars](https://img.shields.io/badge/True%20North-Minnesota%20North%20Stars-006747?style=flat&labelColor=black)](https://en.wikipedia.org/wiki/Minnesota_North_Stars)
+
+> *"They left. The toolkit stayed."*
