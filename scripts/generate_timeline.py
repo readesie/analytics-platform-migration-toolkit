@@ -37,7 +37,7 @@ for col, w in col_w.items():
 
 # ── TITLE ─────────────────────────────────────────────────────────────
 ws.merge_cells("A1:F1")
-ws["A1"] = "CORTEVA MIGRATION  —  REALISTIC TIMELINE ANALYSIS"
+ws["A1"] = "Northstar Analytics Group MIGRATION  —  REALISTIC TIMELINE ANALYSIS"
 ws["A1"].font      = Font(name="Arial", bold=True, color=WHITE, size=14)
 ws["A1"].fill      = fill(ACCENT)
 ws["A1"].alignment = ctr
@@ -74,8 +74,8 @@ baseline = [
      "Contract signed day 1; access to all environments granted within 48 hours",
      "Access delays alone can cost 2–3 weeks"),
     (2, "Discovery & Dependency Audit", "Wk 1",  "Wk 3",
-     "Jake and SAS Admin available; dependency tracking gaps manageable",
-     "Fragmented tracking (per Jake) could extend this to 6+ weeks"),
+     "Evan and SAS Admin available; dependency tracking gaps manageable",
+     "Fragmented tracking (per Evan) could extend this to 6+ weeks"),
     (3, "Planning & OS Version Confirm", "Wk 3", "Wk 5",
      "Target OS confirmed quickly; IT procurement already in motion",
      "Licensing/procurement is an IT/finance decision — can take weeks"),
@@ -133,7 +133,7 @@ for i, h in enumerate(threat_headers, 1):
 ws.row_dimensions[16].height = 28
 
 threats = [
-    ("T1", "Fragmented dependency tracking — no single source of truth (per Jake)",
+    ("T1", "Fragmented dependency tracking — no single source of truth (per Evan)",
      "🔴 HIGH", "+2 to +6 wks",
      "Discovery takes much longer than planned; migration built on incomplete map",
      "Phase 1 #9 — audit ALL sources before touching anything"),
@@ -152,8 +152,8 @@ threats = [
     ("T5", "UAT scheduling delays — ~140 business users hard to coordinate",
      "🟠 MEDIUM", "+1 to +4 wks",
      "Sandbox sign-off gate blocked; Prod cutover window slips",
-     "Book UAT window early; get Saritha to own user scheduling"),
-    ("T6", "SAS admin knowledge gaps — Jake inherited role ~2.5 yrs ago, no formal handoff",
+     "Book UAT window early; get Priya to own user scheduling"),
+    ("T6", "SAS admin knowledge gaps — Evan inherited role ~2.5 yrs ago, no formal handoff",
      "🟠 MEDIUM", "+1 to +3 wks",
      "Undocumented SAS configs surface during migration; rework required",
      "Treat Discovery Phase as mandatory — do not skip or rush"),
@@ -232,7 +232,7 @@ scenarios = [
      "Raise at 3-month check-in if pace is behind; don't wait until Week 24"),
     ("At Risk",      "10+ months", "🟡 5%",
      "Major undiscovered dependency or app incompatibility requires platform version upgrades or vendor involvement",
-     "Identify this risk in Week 3 Discovery report; surface immediately to Saritha"),
+     "Identify this risk in Week 3 Discovery report; surface immediately to Priya"),
 ]
 
 sc_fills = [GREEN_BG, AMBER_BG, RED_BG, "FCE4EC"]
@@ -278,5 +278,5 @@ ws["A34"].alignment = lft
 ws.row_dimensions[34].height = 52
 ws["A34"].alignment = Alignment(horizontal="left", vertical="center", wrap_text=True)
 
-wb.save("/mnt/user-data/outputs/Corteva_Migration_Timeline_Analysis.xlsx")
+wb.save("/mnt/user-data/outputs/Northstar Analytics Group_Migration_Timeline_Analysis.xlsx")
 print("Done.")

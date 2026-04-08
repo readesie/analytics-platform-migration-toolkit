@@ -71,8 +71,8 @@ Output files will be written to the current directory.
 |-------|---------|
 | White | You own it — solo, sequential |
 | Green | Can run in parallel with other tasks |
-| Blue | Delegate to Jake / SAS Admin / IT; you validate |
-| Amber | Joint / collaborative — requires active Corteva input |
+| Blue | Delegate to Evan / SAS Admin / IT; you validate |
+| Amber | Joint / collaborative — requires active Northstar Analytics Group input |
 
 ### Status dropdown
 Each task has a status dropdown: `Not Started / In Progress / Complete / Blocked`

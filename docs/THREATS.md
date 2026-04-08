@@ -38,7 +38,7 @@ You cannot begin OS upgrade work or separation build work until the environments
 - Procurement/hardware lead times not yet assessed
 
 ### Mitigation
-Raise provisioning requests on Day 1. Track status daily. Make it visible to Saritha. Escalate if queue is not moving after week 2.
+Raise provisioning requests on Day 1. Track status daily. Make it visible to Priya. Escalate if queue is not moving after week 2.
 
 ---
 
@@ -95,7 +95,7 @@ Sandbox sign-off is a gate before Prod cutover. If UAT drags, the entire schedul
 - No testing window blocked on business calendars
 
 ### Mitigation
-Book the UAT window early — before Sandbox build begins. Get Saritha to own user scheduling and communication. Define a minimum viable sign-off criteria so UAT doesn't become open-ended.
+Book the UAT window early — before Sandbox build begins. Get Priya to own user scheduling and communication. Define a minimum viable sign-off criteria so UAT doesn't become open-ended.
 
 ---
 

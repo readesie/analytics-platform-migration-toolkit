@@ -42,7 +42,7 @@ Two decisions in this phase are non-negotiable and must be made in writing:
 
 1. **OS upgrade before separation.** The migration sequence must be: upgrade OS first, validate everything, then execute the separation. Merging these two workstreams compounds risk significantly.
 
-2. **Written success criteria for each environment.** What does "done" mean for Dev? For Sandbox? For Prod? Get Saritha's sign-off on these definitions before build work begins. This prevents scope creep and protects you at contract end.
+2. **Written success criteria for each environment.** What does "done" mean for Dev? For Sandbox? For Prod? Get Priya's sign-off on these definitions before build work begins. This prevents scope creep and protects you at contract end.
 
 Also in this phase: establish source control for all scripts and configs. Commit a baseline before any migration work begins. This is your rollback foundation.
 
@@ -80,7 +80,7 @@ The **dependency map from Phase 1** is your guide here. Every connection on that
 
 Promote only — do not make manual changes in Sandbox. Every promotion should follow the same change control process used in Dev. Capture diffs. Log everything.
 
-**UAT with the ~140 affected users** is the gate for this phase. Book the UAT window before Sandbox build begins. Get Saritha to own user scheduling and communication. Define minimum viable sign-off criteria upfront.
+**UAT with the ~140 affected users** is the gate for this phase. Book the UAT window before Sandbox build begins. Get Priya to own user scheduling and communication. Define minimum viable sign-off criteria upfront.
 
 Do not schedule Prod cutover without written sign-off from the project sponsor on Sandbox completion.
 
