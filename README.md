@@ -22,7 +22,10 @@ It is platform-aware (SAS, Spotfire, Power BI Gateway) but the principles apply 
 analytics-platform-migration-toolkit/
 │
 ├── README.md                          # This file
+├── LICENSE.md                          # MIT License
 │
+├── assets/
+│   └── Northstar retro bann.png  # Minnesota Northstars tribute│
 ├── templates/
 │   ├── Migration_Checklist.xlsx       # 54-task checklist across 9 phases, color-coded by owner
 │   └── Migration_Timeline_Analysis.xlsx  # Realistic timeline with threats, scenarios, mitigations
