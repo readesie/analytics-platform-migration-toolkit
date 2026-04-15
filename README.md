@@ -21,23 +21,24 @@ It is platform-aware (SAS, Spotfire, Power BI Gateway) but the principles apply 
 ```
 analytics-platform-migration-toolkit/
 │
-├── README.md                           # This file
-├── LICENSE.md                          # MIT License
+├── README.md                             # This file
+├── LICENSE                               # MIT License
 │
 ├── assets/
-│   └── Northstar retro bann.png  # Minnesota Northstars tribute│
+│   └── Northstar retro bann.png          # Minnesota Northstars tribute
+│
 ├── templates/
 │   ├── Migration_Checklist.xlsx          # 54-task checklist across 9 phases, color-coded by owner
 │   └── Migration_Timeline_Analysis.xlsx  # Realistic timeline with threats, scenarios, mitigations
 │
 ├── scripts/
-│   ├── generate_checklist.py          # Regenerates the checklist Excel file from source
-│   └── generate_timeline.py           # Regenerates the timeline analysis Excel file from source
+│   ├── generate_checklist.py             # Regenerates the checklist Excel file from source
+│   └── generate_timeline.py              # Regenerates the timeline analysis Excel file from source
 │
 └── docs/
-    ├── PHASES.md                      # Phase-by-phase narrative guide
-    ├── THREATS.md                     # Deep dive on timeline threats and mitigations
-    └── LESSONS_LEARNED.md             # Hard-won operational lessons
+    ├── PHASES.md                         # Phase-by-phase narrative guide
+    ├── THREATS.md                        # Deep dive on timeline threats and mitigations
+    └── LESSONS_LEARNED.md                # Hard-won operational lessons
 ```
 
 ---
@@ -77,7 +78,7 @@ Output files will be written to the current directory.
 | Color | Meaning |
 |-------|---------|
 | White | You own it — solo, sequential |
-| Green | Can run in parallel with other tasks |
+| Green | Can run in parallel with other tasks (Parallel?=Yes) |
 | Blue | Delegate to Evan / SAS Admin / IT; you validate |
 | Amber | Joint / collaborative — requires active Northstar Analytics Group input |
 
